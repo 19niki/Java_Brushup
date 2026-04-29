@@ -33,13 +33,26 @@ public class Sample1 {
         }
         return rev;
     }
+
+    public static int fact(int num)
+    {
+        int fact=1;
+        for(int i=1;i<=num;i++)
+        {
+
+            fact=fact*i;
+        }
+        return fact;
+    }
     public static void main(String[] args)
     {
         int a= large(273,45,142);
         int b = add(23,87);
         int c  = rev(564);
+        int d = fact(6);
         System.out.println("largest number is:" + a);
         System.out.println("addition of two number is:"+ b);
-        System.out.println("reverse of the nunber is:"+ c);
+        System.out.println("reverse of the number is:"+ c);
+        System.out.println("factorial of the number:"+ d);
     }
 }
