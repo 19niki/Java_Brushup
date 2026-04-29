@@ -44,28 +44,15 @@ public class Sample1 {
         }
         return fact;
     }
-
-    public static String even_odd(int num)
-    {
-        if(num%2==0)
-        {
-            return "even";
-        }
-        else
-            return "odd";
-    }
-
     public static void main(String[] args)
     {
         int a= large(273,45,142);
         int b = add(23,87);
         int c  = rev(564);
         int d = fact(6);
-        String e = even_odd(78);
         System.out.println("largest number is:" + a);
         System.out.println("addition of two number is:"+ b);
         System.out.println("reverse of the number is:"+ c);
         System.out.println("factorial of the number:"+ d);
-        System.out.println("Number is "+ e);
     }
 }
